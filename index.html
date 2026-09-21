@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -139,7 +140,7 @@
             border-radius: 50%;
             overflow: hidden;
             border: 4px solid var(--border-color);
-            box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
             flex-shrink: 0;
         }
 
@@ -191,7 +192,7 @@
 
         .project-card:hover {
             transform: translateY(-5px);
-            box-shadow: 0 10px 20px rgba(0,0,0,0.4);
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.4);
             border-color: var(--accent-color);
         }
 
@@ -277,18 +278,23 @@
                 text-align: center;
                 gap: 2rem;
             }
+
             .home-content p {
                 margin: 0 auto 2rem auto;
             }
+
             nav ul {
-                display: none; /* Poderia adicionar menu mobile com JS se necessário */
+                display: none;
+                /* Poderia adicionar menu mobile com JS se necessário */
             }
+
             section {
                 padding: 6rem 5% 3rem 5%;
             }
         }
     </style>
 </head>
+
 <body>
 
     <!-- Cabeçalho -->
@@ -308,7 +314,8 @@
     <section id="home">
         <div class="home-content">
             <h1>Olá, eu sou o <br><span>João Vitor</span></h1>
-            <p>Desenvolvedor Front-end especializado em criar interfaces limpas, modernas e focadas na experiência do usuário utilizando tecnologias web vanilla.</p>
+            <p>Desenvolvedor Front-end especializado em criar interfaces limpas, modernas e focadas na experiência do
+                usuário utilizando tecnologias web vanilla.</p>
             <a href="#projetos" class="btn">Ver Projetos</a>
         </div>
         <div class="profile-pic-container">
@@ -320,8 +327,11 @@
     <!-- Seção Sobre -->
     <section id="sobre">
         <h2>Sobre Mim</h2>
-        <p>Sou apaixonado por tecnologia e desenvolvimento web. Foco meu trabalho em escrever códigos limpos, performáticos e acessíveis, utilizando HTML5, CSS3 e JavaScript entre outras tecnologiassem dependências complexas desnecessárias.</p>
-        <p>Meu objetivo é transformar ideias e designs em aplicações reais e fluidas, sempre garantindo credibilidade e um visual profissional.</p>
+        <p>Sou apaixonado por tecnologia e desenvolvimento web. Foco meu trabalho em escrever códigos limpos,
+            performáticos e acessíveis, utilizando HTML5, CSS3 e JavaScript entre outras tecnologiassem dependências
+            complexas desnecessárias.</p>
+        <p>Meu objetivo é transformar ideias e designs em aplicações reais e fluidas, sempre garantindo credibilidade e
+            um visual profissional.</p>
         <div class="skills">
             <span class="skill-tag">HTML5 / Semantic</span>
             <span class="skill-tag">CSS3 / Flexbox & Grid</span>
@@ -332,51 +342,55 @@
     </section>
 
     <!-- Seção Projetos (Cards com Print como Link) -->
- <!-- Seção Projetos (Cards com Print como Link) -->
-<section id="projetos">
-    <h2>Projetos</h2>
-    <div class="projects-grid">
-        
-        <!-- Projeto 1: Bella Donna -->
-        <div class="project-card">
-            <!-- Link que envolve o print para abrir o site -->
-            <a href="https://c-t-bella-donna-nu.vercel.app/" target="_blank" class="project-link-img">
-                <!-- Substitua 'bella-donna.jpg' pelo nome exato do print do seu projeto -->
-                <img src="img/b-d.jpg" alt="Print do Projeto Casa de temporada Bella Donna">
-            </a>
-            <div class="project-info">
-                <h3>Casa de temporada Bella Donna</h3>
-                <p>Desenvolvida com HTML, CSS e JS puro para conversão de leads e layout totalmente responsivo.</p>
-                <a href="https://c-t-bella-donna-nu.vercel.app/" target="_blank" class="project-link-text">Acessar Projeto &rarr;</a>
-            </div>
-        </div>
+    <!-- Seção Projetos (Cards com Print como Link) -->
+    <section id="projetos">
+        <h2>Projetos</h2>
+        <div class="projects-grid">
 
-        <!-- Projeto 2: Mercadão das Frutas -->
-        <div class="project-card">
-            <!-- Link que envolve o print para abrir o site -->
-            <a href="https://leovjtech.github.io/mercad-o-das-frutas/" target="_blank" class="project-link-img">
-                <!-- Substitua 'mercadao-frutas.jpg' pelo nome exato do print do seu projeto -->
-                <img src="img/m-f.jpg" alt="Print do Projeto Mercadão das Frutas">
-            </a>
-            <div class="project-info">
-                <h3>Mercadão das frutas</h3>
-                <p>Interface de apresentação do comercio hortifruti.</p>
-                <a href="https://leovjtech.github.io/mercad-o-das-frutas/" target="_blank" class="project-link-text"> Acessar Projeto &rarr;</a>
+            <!-- Projeto 1: Bella Donna -->
+            <div class="project-card">
+                <!-- Link que envolve o print para abrir o site -->
+                <a href="https://c-t-bella-donna-nu.vercel.app/" target="_blank" class="project-link-img">
+                    <!-- Substitua 'bella-donna.jpg' pelo nome exato do print do seu projeto -->
+                    <img src="img/b-d.jpg" alt="Print do Projeto Casa de temporada Bella Donna">
+                </a>
+                <div class="project-info">
+                    <h3>Casa de temporada Bella Donna</h3>
+                    <p>Desenvolvida com HTML, CSS e JS puro para conversão de leads e layout totalmente responsivo.</p>
+                    <a href="https://c-t-bella-donna-nu.vercel.app/" target="_blank" class="project-link-text">Acessar
+                        Projeto &rarr;</a>
+                </div>
             </div>
-        </div>
 
-    </div>
-</section>
+            <!-- Projeto 2: Mercadão das Frutas -->
+            <div class="project-card">
+                <!-- Link que envolve o print para abrir o site -->
+                <a href="https://leovjtech.github.io/mercad-o-das-frutas/" target="_blank" class="project-link-img">
+                    <!-- Substitua 'mercadao-frutas.jpg' pelo nome exato do print do seu projeto -->
+                    <img src="img/m-f.jpg" alt="Print do Projeto Mercadão das Frutas">
+                </a>
+                <div class="project-info">
+                    <h3>Mercadão das frutas</h3>
+                    <p>Interface de apresentação do comercio hortifruti.</p>
+                    <a href="https://leovjtech.github.io/mercad-o-das-frutas/" target="_blank"
+                        class="project-link-text"> Acessar Projeto &rarr;</a>
+                </div>
+            </div>
+
+        </div>
+    </section>
 
     <!-- Seção Contato -->
     <section id="contato">
         <h2>Contato</h2>
-        <p style="color: var(--text-secondary); margin-bottom: 2rem;">Se tiver algum inetresse para algum projeto, entre em contato através das redes abaixo:</p>
+        <p style="color: var(--text-secondary); margin-bottom: 2rem;">Se tiver algum inetresse para algum projeto, entre
+            em contato através das redes abaixo:</p>
         <div class="contact-links">
             <a href="https://www.instagram.com/vitin.lv/" target="_blank" class="contact-card">
-                📱 Instagram 
+                📱 Instagram
             </a>
-            <a href="https:www.linkedin.com/in/joão-vitor-leonardo-souza-231666237" target="_blank" class="contact-card">
+            <a href="https:www.linkedin.com/in/joão-vitor-leonardo-souza-231666237" target="_blank"
+                class="contact-card">
                 💼 LinkedIn
             </a>
         </div>
@@ -387,4 +401,5 @@
         console.log("Portfólio carregado com sucesso!");
     </script>
 </body>
+
 </html>
